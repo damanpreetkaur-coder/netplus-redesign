@@ -1,0 +1,27 @@
+:root {
+    --primary-red: #E30613;
+    --secondary-red: #FF3B30;
+    --white: #FFFFFF;
+    --black: #111111;
+    --gray: #6B7280;
+    --light-gray: #F8F9FC;
+    --purple: #7B2FF7;
+
+    --primary-gradient: linear-gradient(
+        135deg,
+         #E30613,
+         #7B2FF7);
+
+         --heading-font: "Poppins", sans-serif;
+         --body-font: "Inter", sans-serif;
+         
+         --radius-small: 10px;
+         --radius-medium: 18px;
+         --radius-large: 30px;
+
+         --shadow-light: 0 8px 25px rgba(0,0,0,.08);
+         --shadow-medium: 0 15px 40px rgba(0,0,0,.12);
+
+         --transition: .3s ease;
+
+}
