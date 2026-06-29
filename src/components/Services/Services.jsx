@@ -7,7 +7,10 @@ function Services(){
         <section className="services">
             <div className="section-title">
                 <h2>Choose What Suits You Best </h2>
-                <p> Pick the services that matches your lifestyle</p>
+                <p> Pick the services that matches your lifestyle
+
+                    
+                </p>
             </div>
             <div className="services-container">
                 <div className="service-card">
