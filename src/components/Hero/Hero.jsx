@@ -38,13 +38,29 @@ function Hero(){
 
                     </div>
                     <div className="hero-right">
-                        <div className="hero-cards">
-                            <h2> Unlimited Broadband</h2>
-                            <h1>599 Rs</h1>
-                            <p>Starting Price</p>
-                            <button>Book Now</button>
-                        </div>
-                    </div>
+
+    <img
+        src="/src/assets/images/tv.png"
+        alt="TV"
+        className="tv-image"
+    />
+
+    <img
+        src="/src/assets/images/router.png"
+        alt="Router"
+        className="router-image"
+    />
+
+    <div className="wifi-icon">
+        📶
+    </div>
+
+    <div className="ott-card">
+        <h2>17+</h2>
+        <p>OTT Apps</p>
+    </div>
+
+</div>
             </div>
         </section>
     );

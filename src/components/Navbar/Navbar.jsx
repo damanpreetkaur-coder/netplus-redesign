@@ -16,7 +16,8 @@ function Navbar() {
                 </ul>
             <div className="nav-buttons">
                 <button className="pay-btn">
-                    Pay Bill</button>
+                    Pay Bill
+                    </button>
                     <button className="connect-btn">
                         Get Connection
                     </button>

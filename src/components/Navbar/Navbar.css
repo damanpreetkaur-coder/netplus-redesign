@@ -19,6 +19,10 @@
     font-weight:500;
 
 }
+.nav-links a:hover{
+    color:#E30613;
+}
+
 .nav-buttons{
     display:flex;
     gap:15px;
