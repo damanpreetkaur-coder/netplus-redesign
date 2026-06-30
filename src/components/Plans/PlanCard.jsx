@@ -1,20 +1,37 @@
 import "./Plans.css";
-function PlanCard({name, speed, price, ott, popular}){
-return(
+
+function PlanCard({ name, speed, price, popular }) {
+  return (
     <div className={`plan-card ${popular ? "popular" : ""}`}>
-        {popular && <div className="badge">Most Popular</div>}
-        <h3>{name}</h3>
-        <h2>{price}<span>/month</span></h2>
-        <p className="speed">{speed} Mbps</p>
-        <ul>
-            <li> Unlimited Data </li>
-            <li> Unlimited Calls</li>
-            <li>{ott}    </li>
-            <li >Free installation</li>
-        </ul>
-        <button >Book Now   </button>
+
+      {popular && (
+        <div className="popular-badge">
+          BEST VALUE
+        </div>
+      )}
+
+      <div className="speed-circle">
+        <h4>{name}</h4>
+        <p>{speed}</p>
+        <span>Mbps</span>
+      </div>
+
+      <h2>
+        {price}
+        <span>/month</span>
+      </h2>
+
+      <div className="plan-features">
+        <p>✔ Unlimited Data</p>
+        <p>✔ Unlimited Calls</p>
+        <p>✔ Free Installation</p>
+        <p>✔ 24×7 Customer Support</p>
+      </div>
+
+      <button>Book Now</button>
 
     </div>
-);
+  );
 }
+
 export default PlanCard;
