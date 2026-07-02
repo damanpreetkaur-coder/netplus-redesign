@@ -36,24 +36,18 @@ function Hero(){
                         </div>
                         
 
-                    </div>
+                    </div></div>
                     <div className="hero-right">
 
     <img
-        src="/src/assets/images/tv.png"
+        src="src\assets\images\tv.png"
         alt="TV"
         className="tv-image"
     />
 
-    <img
-        src="/src/assets/images/router.png"
-        alt="Router"
-        className="router-image"
-    />
+    
 
-    <div className="wifi-icon">
-        📶
-    </div>
+    
 
     <div className="ott-card">
         <h2>17+</h2>
@@ -61,7 +55,7 @@ function Hero(){
     </div>
 
 </div>
-            </div>
+            
         </section>
     );
 }

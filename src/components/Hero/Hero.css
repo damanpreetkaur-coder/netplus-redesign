@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 8%;
+    padding: 05px 8%;
     min-height: 90vh;
 
     background: linear-gradient(
@@ -79,6 +79,9 @@
     flex:1;
     position:relative;
     height:650px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 .hero-card{
     background:white;
@@ -107,57 +110,54 @@
 }
 .tv-image{
 
-    width:420px;
+    width:550px;
+    align-items:center;
+    position:relative;
 
-    position:absolute;
-
-    right:40px;
-
-    top:20px;
+    right:10px;
+    filter: drop-shadow(0 30px 40px rgba(0,0,0,.25));
+    top:35px;
 }
-.router-image{
-
-    width:350px;
-
+.hero-right::before{
+    content:"";
     position:absolute;
-
-    bottom:70px;
-
-    left:80px;
+    width:550px;
+    height:550px;
+    background:radial-gradient(circle,
+        rgba(255,75,75,.25) 0%,
+        rgba(255,75,75,.12) 40%,
+        transparent 75%);
+    border-radius:50%;
+    z-index:0;
 }
-.wifi-icon{
-
+.hero-right::after{
+    content:"";
     position:absolute;
-
-    top:180px;
-
-    left:90px;
-
-    font-size:55px;
+    width:300px;
+    height:300px;
+    background:#ff4d4d;
+    filter:blur(140px);
+    opacity:.18;
+    border-radius:50%;
+    bottom:40px;
+    right:80px;
 }
+
 .ott-card{
 
     position:absolute;
 
-    bottom:120px;
+    bottom:130px;
 
-    right:60px;
+    right:80px;
+    z-index:3;
+    /*width:120px;
 
-    width:120px;
-
-    height:120px;
+    height:120px;*/
 
     background:white;
 
     border-radius:50%;
-
-    display:flex;
-
-    flex-direction:column;
-
-    justify-content:center;
-
-    align-items:center;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.15);
+ box-shadow:0 20px 30px rgba(0,0,0,.15);
+  
 }
