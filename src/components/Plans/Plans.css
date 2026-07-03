@@ -51,10 +51,10 @@
 }
 
 .speed-circle{
-    width:150px;
-    height:150px;
+    width:160px;
+    height:50px;
     margin:0 auto 30px;
-    border-radius:50%;
+    border-radius:20%;
     background:linear-gradient(135deg,#7B2FF7,#E30613);
     color:white;
 
@@ -64,6 +64,13 @@
     align-items:center;
 
     box-shadow:0 10px 25px rgba(123,47,247,.3);
+}
+.speed-value{
+    background:linear-gradient(135deg,#ef8289,#fff);
+   font-weight:600;
+    align-items:center;
+    gap:5px;
+    border-radius:50%
 }
 
 .speed-circle h4{

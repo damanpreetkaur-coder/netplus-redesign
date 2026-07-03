@@ -11,8 +11,8 @@ function PlanCard({ name, speed, price, popular }) {
       )}
 
       <div className="speed-circle">
-        <h4>{name}</h4>
-        <p>{speed}</p>
+        <h4>{name}</h4></div>
+       <div className= "speed-value"> <span>{speed}</span>
         <span>Mbps</span>
       </div>
 
