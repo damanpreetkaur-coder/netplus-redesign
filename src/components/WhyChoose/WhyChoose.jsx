@@ -1,10 +1,10 @@
 import "./WhyChoose.css";
 
-import feature1 from "../../assets/images/speed.jpeg";
-import feature2 from "../../assets/images/reliable.jpg";
+import feature1 from "../../assets/images/speed.png";
+import feature2 from "../../assets/images/reliable.png";
 import feature3 from "../../assets/images/entertainment.png";
 import feature4 from "../../assets/images/affordable.png";
-import feature5 from "../../assets/images/avalaible.png";
+import feature5 from "../../assets/images/available.png";
 function WhyChoose() {
 
   const features = [

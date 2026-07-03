@@ -68,10 +68,123 @@
     text-align:left;
     padding-left:30px;
 }
-@media(max-width:900px){
-    .compare-table{
-        overflow-x:auto;
-        display:block;
-    }
+.mobile-note{
+    display:none;
 }
 
+.compare-scroll{
+    width:100%;
+}
+
+@media (max-width:992px){
+    .compare{
+    padding:70px 5%;
+}
+
+.compare-scroll{
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+}
+
+.compare-table{
+    min-width:900px;
+}
+
+.comparison{
+    padding:70px 5%;
+}
+
+.comparison-table{
+    overflow-x:auto;
+    border-radius:20px;
+    -webkit-overflow-scrolling:touch;
+}
+
+.comparison-table table{
+    min-width:850px;
+}
+
+.comparison-table::-webkit-scrollbar{
+    height:8px;
+}
+
+.comparison-table::-webkit-scrollbar-thumb{
+    background:#e30613;
+    border-radius:20px;
+}
+
+}
+/* ============================
+   Mobile Responsive
+============================= */
+
+@media (max-width:768px){
+
+.compare{
+    padding:50px 15px;
+}
+
+.compare h2{
+    font-size:32px;
+}
+
+.compare p{
+    font-size:15px;
+}
+
+.mobile-note{
+    display:block;
+    text-align:center;
+    margin-bottom:15px;
+    color:#666;
+    font-size:14px;
+    font-weight:500;
+}
+
+.compare-scroll{
+    overflow-x:auto;
+}
+
+.compare-table{
+    min-width:850px;
+}
+
+.compare-table div{
+    padding:16px;
+    font-size:15px;
+}
+
+.table-header{
+    font-size:18px;
+}
+
+
+
+}@media (max-width:480px){
+
+.compare h2{
+    font-size:28px;
+}
+
+.compare p{
+    font-size:14px;
+}
+
+.compare-table{
+    min-width:780px;
+}
+
+.compare-table div{
+    padding:14px;
+    font-size:14px;
+}
+
+.table-header{
+    font-size:16px;
+}
+
+.mobile-note{
+    font-size:13px;
+}
+
+}

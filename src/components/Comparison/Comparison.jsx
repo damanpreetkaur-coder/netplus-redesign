@@ -8,6 +8,11 @@ function Comparison(){
                     See which Netplus service is perfect for your needs. Compare our broadband and IPTV plans to find the best fit for your home or office.
                 </p>
             </div>
+            <div className="compare-scroll">
+                <div className="mobile-note">
+                    Swipe left to view the full comparison table on mobile devices.
+                </div>
+            
             <div className="compare-table">
                 <div className="table-header feature">
                     Features
@@ -69,6 +74,7 @@ function Comparison(){
         <div>₹399/month</div>
 
         <div>₹498/month</div>
+            </div>
             </div>
         </section>
     );
