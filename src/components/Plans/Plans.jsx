@@ -1,5 +1,12 @@
 import "./Plans.css";
 import PlanCard from "./PlanCard";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 function Plans() {
   const plans = [
@@ -68,20 +75,42 @@ function Plans() {
         <h2>Popular Broadband Plans</h2>
         <p>
           Choose the perfect Netplus broadband plan for your home or office.
-        </p>
+
+        </p><p> </p>
       </div>
 
-      <div className="plans-container">
-        {plans.map((plan) => (
-          <PlanCard
-            key={plan.id}
-            name={plan.name}
-            speed={plan.speed}
-            price={plan.price}
-            popular={plan.popular}
-          />
-        ))}
-      </div>
+     <Swiper
+  modules={[Navigation, Pagination, Autoplay]}
+  navigation
+  pagination={{ clickable: true }}
+  autoplay={{ delay: 3000 }}
+  loop={true}
+  spaceBetween={30}
+  breakpoints={{
+    320: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  }}
+>
+
+  {plans.map((plan) => (
+    <SwiperSlide key={plan.id}>
+      <PlanCard
+        name={plan.name}
+        speed={plan.speed}
+        price={plan.price}
+        popular={plan.popular}
+      />
+    </SwiperSlide>
+  ))}
+
+</Swiper>
 
     </section>
   );

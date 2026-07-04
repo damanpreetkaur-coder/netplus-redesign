@@ -6,6 +6,7 @@ import AIChatbot from "../components/AIChatbot/AIChatbot";
 import CTA from "../components/CTA/CTA";
 import Comparison from "../components/Comparison/Comparison";
 import WhyChoose from "../components/WhyChoose/WhyChoose";
+import Footer from "../components/Footer/Footer";
 function Home() {
   return (
     <>
@@ -17,6 +18,7 @@ function Home() {
       <CTA />
       <Comparison />
       <WhyChoose />
+      <Footer />
     </>
   );
 }

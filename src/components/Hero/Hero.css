@@ -41,7 +41,7 @@
     margin-bottom: 40px;
 }
 .primary-btn{
-    background:var(--primary-gradient);
+    background:linear-gradient(135deg,#E30613,#7B2FF7);
     color:white;
     padding:15px 30px;
     border-radius:10px;
@@ -51,7 +51,7 @@
 
 }
 .secondary-btn{
-    background:white;
+    background:rgb(218, 72, 72);
     border:2px solid red;
     color:red;
     padding: 15px 30px;

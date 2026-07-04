@@ -4,15 +4,29 @@
 }
 
 .plans-container{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-    gap:30px;
     margin-top:60px;
+} 
+.swiper{
+    padding:20px 10px 70px;
+}
+
+.swiper-slide{
+    display:flex;
+    justify-content:center;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    color:#E30613;
+}
+
+.swiper-pagination-bullet-active{
+    background:#E30613;
 }
 
 .plan-card{
     width:100%;
-    max-width:300px;
+    max-width:340 px;
     margin:auto;
     background:#fff;
     border-radius:20px;
