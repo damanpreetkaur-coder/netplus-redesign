@@ -19,12 +19,13 @@
     justify-content:space-between;
     align-items:center;
 }
-.logo h2{
-    color:#E30613;
+.logo img{
+    height: 50px;
 }
 .nav-links{
     display:flex;
-    gap:25px;
+    align-items:center;
+    gap:55px;
 }
 .nav-links a{
     color:#222;
@@ -37,13 +38,21 @@
 
 .nav-buttons{
     display:flex;
-    gap:15px;
+    gap:25px;
 }
 .pay-btn{
     background:#E30613;
     color:white;
     padding:12px 22px;
     border-radius:10px;
+}
+.connect-btn{
+    background:#fff;
+    color:#E30613;
+    padding:12px 22px;
+    border-radius:10px;
+
+    border:1px solid #E30613;
 }
 .body{
     padding-top: 80px;

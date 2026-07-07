@@ -1,27 +1,34 @@
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 function Navbar() {
     return(
         <nav className="navbar">
             <div className="container navbar-container">
                 <div className="logo">
-                    <h2 >Netplus</h2>
+                    <img src="src/assets/images/logo.png" alt="Logo" />
                 </div>
                 <ul className="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Broadband</a></li>
-                    <li><a href="#">IPTV</a></li>
-                    <li><a href="#">Plans</a></li>
-                     <li><a href="#">Enterprise</a></li>
-                      <li><a href="#">Support</a></li>
-                </ul>
-            <div className="nav-buttons">
-                <button className="pay-btn">
-                    Pay Bill
-                    </button>
-                    <button className="connect-btn">
-                        Get Connection
-                    </button>
-                    </div>
+
+    <li><Link to="/">Home</Link></li>
+
+    <li><Link to="/broadband">Broadband</Link></li>
+
+    <li><Link to="/iptv">IPTV</Link></li>
+
+    <li><Link to="/plans">Plans</Link></li>
+
+    <li><Link to="/enterprise">Enterprise</Link></li>
+
+    <li><Link to="/support">Support</Link></li>
+
+</ul>
+            <Link to="/pay-bill">
+  <button className="pay-btn">PayBill</button>
+</Link>
+
+<Link to="/get-connection">
+  <button className="connect-btn">GetConnection</button>
+</Link>
             </div>
         </nav>
     );
