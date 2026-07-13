@@ -16,10 +16,10 @@ function Hero(){
                     </p>
                     <div className="hero-buttons">
                         <button className="primary-btn">
-                            Explore Plans
+                            <Link to="/plans"> Explore Plans</Link>
                         </button>
                         <button className="secondary-btn">
-                            AI Recommendation
+                           <Link to="/ai-recommendation">AI Recommendation</Link>
                         </button>
 
                     </div>
@@ -50,10 +50,7 @@ function Hero(){
 
     
 
-    <div className="ott-card">
-        <h2>17+</h2>
-        <p>OTT Apps</p>
-    </div>
+    
 
 </div>
             

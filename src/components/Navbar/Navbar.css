@@ -1,6 +1,6 @@
 .navbar{
     position: fixed;
-    padding:20px;
+    padding:15px;
     top: 0;
     left: 0;
     width: 100%;
@@ -20,12 +20,15 @@
     align-items:center;
 }
 .logo img{
-    height: 50px;
+    height: 60px;
+    align-items:center;
+    width: auto;
 }
 .nav-links{
+    list-style:none;
     display:flex;
     align-items:center;
-    gap:55px;
+    gap:25px;
 }
 .nav-links a{
     color:#222;
@@ -38,7 +41,7 @@
 
 .nav-buttons{
     display:flex;
-    gap:25px;
+    gap:15px;
 }
 .pay-btn{
     background:#E30613;

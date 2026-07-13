@@ -4,9 +4,9 @@ function Navbar() {
     return(
         <nav className="navbar">
             <div className="container navbar-container">
-                <div className="logo">
-                    <img src="src/assets/images/logo.png" alt="Logo" />
-                </div>
+                <span className="logo">
+                    <img src="src\assets\images\logo.png" alt="Logo" />
+                </span>
                 <ul className="nav-links">
 
     <li><Link to="/">Home</Link></li>

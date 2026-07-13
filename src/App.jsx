@@ -9,6 +9,7 @@ import PlansPage from "./Pages/Plans/PlansPage";
 import Support from "./Pages/Support/Support";
 import GetConnection from "./Pages/GetConnection/GetConnection";
 import PayBill from "./Pages/PayBill/PayBill";
+import AIRecommendation from "./Pages/AIRecommendation/AIRecommendation";
 function App() {
   return (
     <Routes>
@@ -21,6 +22,7 @@ function App() {
 <Route path="/support" element={<Support />} />
 <Route path="/get-connection" element={<GetConnection />} />
 <Route path="/pay-bill" element={<PayBill />} />
+<Route path="/ai-recommendation" element={<AIRecommendation />} />
     </Routes>
   );
 }

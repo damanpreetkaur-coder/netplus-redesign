@@ -1,0 +1,58 @@
+export const broadbandPlans = [
+  {
+    id: 1,
+    name: "Silver",
+    speed: "100",
+    price: "₹499",
+    popular: false,
+  },
+  {
+    id: 2,
+    name: "Silver Pro",
+    speed: "150",
+    price: "₹599",
+    popular: false,
+  },
+  {
+    id: 3,
+    name: "Gold",
+    speed: "200",
+    price: "₹699",
+    popular: false,
+  },
+  {
+    id: 4,
+    name: "Gold Pro",
+    speed: "250",
+    price: "₹799",
+    popular: true,
+  },
+  {
+    id: 5,
+    name: "Diamond",
+    speed: "400",
+    price: "₹999",
+    popular: false,
+  },
+  {
+    id: 6,
+    name: "Diamond Pro",
+    speed: "500",
+    price: "₹1299",
+    popular: false,
+  },
+  {
+    id: 7,
+    name: "Platinum",
+    speed: "600",
+    price: "₹1499",
+    popular: false,
+  },
+  {
+    id: 8,
+    name: "Spark",
+    speed: "1000",
+    price: "₹2499",
+    popular: false,
+  },
+];
